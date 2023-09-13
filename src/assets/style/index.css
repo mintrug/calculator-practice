@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.component-display {
+    height: 127px;
+    background-color: #858694;
+}
+
+.display-content {
+    padding: 0.2rem 0.7rem 0.1rem 0.5rem;
+    font-size: 2.5rem;
+    color: white;
+    text-align: right;
+    flex: 0 0 auto;
+}
+
+.component-button-box {
+    background-color: #858694;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+}
+
+.component-button-row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1px;
+    flex: 1 0 auto;
+}
+
+.component-button,
+.component-button-orange,
+.component-button-wide {
+    display: inline-flex;
+    width: 25%;
+    flex: 1 0 auto;
+}
+
+.button-content,
+.button-orange-content {
+    font-size: 1.5rem;
+    background-color: #e0e0e0;
+    background-clip: padding-box;
+    width: 100%;
+    margin: 0 1px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.button-orange-content {
+    color: white;
+    background-color: #f5923e;
+    margin-right: 0px;
+}
+
+.component-button-wide {
+    width: 50%;
+}
