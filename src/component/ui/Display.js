@@ -1,7 +1,8 @@
-function Display() {
+function Display(props) {
+    const { numberDisplay } = props
     return (
         <div className='component-display'>
-            <div className='display-content'>0</div>
+            <div className='display-content'>{numberDisplay}</div>
         </div>
     )
 }
