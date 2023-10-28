@@ -1,7 +1,7 @@
 function Button(props) {
-    const { name, feature, setNumberDisplay } = props
+    const { name, feature, updateNumberDisplay } = props
     const getButtonContent = () => {
-        setNumberDisplay(name)
+        updateNumberDisplay(name)
     }
 
     return (

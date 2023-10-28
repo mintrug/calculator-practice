@@ -1,61 +1,61 @@
 import Button from './Button'
 
 function ButtonBox(props) {
-    const { setNumberDisplay } = props
+    const { updateNumberDisplay } = props
 
     return (
         <div className='component-button-box'>
             <div className='component-button-row'>
-                <Button name='AC' setNumberDisplay={setNumberDisplay} />
-                <Button name='+/-' setNumberDisplay={setNumberDisplay} />
-                <Button name='%' setNumberDisplay={setNumberDisplay} />
+                <Button name='AC' updateNumberDisplay={updateNumberDisplay} />
+                <Button name='+/-' updateNumberDisplay={updateNumberDisplay} />
+                <Button name='%' updateNumberDisplay={updateNumberDisplay} />
                 <Button
                     name='÷'
                     feature='orange'
-                    setNumberDisplay={setNumberDisplay}
+                    updateNumberDisplay={updateNumberDisplay}
                 />
             </div>
             <div className='component-button-row'>
-                <Button name='7' setNumberDisplay={setNumberDisplay} />
-                <Button name='8' setNumberDisplay={setNumberDisplay} />
-                <Button name='9' setNumberDisplay={setNumberDisplay} />
+                <Button name='7' updateNumberDisplay={updateNumberDisplay} />
+                <Button name='8' updateNumberDisplay={updateNumberDisplay} />
+                <Button name='9' updateNumberDisplay={updateNumberDisplay} />
                 <Button
                     name='x'
                     feature='orange'
-                    setNumberDisplay={setNumberDisplay}
+                    updateNumberDisplay={updateNumberDisplay}
                 />
             </div>
             <div className='component-button-row'>
-                <Button name='4' setNumberDisplay={setNumberDisplay} />
-                <Button name='5' setNumberDisplay={setNumberDisplay} />
-                <Button name='6' setNumberDisplay={setNumberDisplay} />
+                <Button name='4' updateNumberDisplay={updateNumberDisplay} />
+                <Button name='5' updateNumberDisplay={updateNumberDisplay} />
+                <Button name='6' updateNumberDisplay={updateNumberDisplay} />
                 <Button
                     name='-'
                     feature='orange'
-                    setNumberDisplay={setNumberDisplay}
+                    updateNumberDisplay={updateNumberDisplay}
                 />
             </div>
             <div className='component-button-row'>
-                <Button name='1' setNumberDisplay={setNumberDisplay} />
-                <Button name='2' setNumberDisplay={setNumberDisplay} />
-                <Button name='3' setNumberDisplay={setNumberDisplay} />
+                <Button name='1' updateNumberDisplay={updateNumberDisplay} />
+                <Button name='2' updateNumberDisplay={updateNumberDisplay} />
+                <Button name='3' updateNumberDisplay={updateNumberDisplay} />
                 <Button
                     name='+'
                     feature='orange'
-                    setNumberDisplay={setNumberDisplay}
+                    updateNumberDisplay={updateNumberDisplay}
                 />
             </div>
             <div className='component-button-row'>
                 <Button
                     name='0'
                     feature='wide'
-                    setNumberDisplay={setNumberDisplay}
+                    updateNumberDisplay={updateNumberDisplay}
                 />
-                <Button name='.' setNumberDisplay={setNumberDisplay} />
+                <Button name='.' updateNumberDisplay={updateNumberDisplay} />
                 <Button
                     name='='
                     feature='orange'
-                    setNumberDisplay={setNumberDisplay}
+                    updateNumberDisplay={updateNumberDisplay}
                 />
             </div>
         </div>
