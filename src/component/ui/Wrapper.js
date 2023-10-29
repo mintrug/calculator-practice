@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import Big from 'big.js'
 
 import Display from './Display'
 import ButtonBox from './ButtonBox'
